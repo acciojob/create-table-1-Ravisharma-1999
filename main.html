@@ -1,12 +1,28 @@
-<button onclick="insert_Row()">Insert Row</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Row Example</title>
+</head>
+<body>
 
-<table id="sampleTable">
-    <tr>
-        <td>Existing Cell1</td>
-        <td>Existing Cell2</td>
-    </tr>
-    <tr>
-        <td>Existing Cell3</td>
-        <td>Existing Cell4</td>
-    </tr>
-</table>
+    <!-- Button to insert a new row -->
+    <button id="insertRowBtn" onclick="insert_Row()">Insert Row</button>
+
+    <!-- Table where rows will be inserted -->
+    <table id="sampleTable" border="1">
+        <tr>
+            <td>Existing Cell1</td>
+            <td>Existing Cell2</td>
+        </tr>
+        <tr>
+            <td>Existing Cell3</td>
+            <td>Existing Cell4</td>
+        </tr>
+    </table>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
